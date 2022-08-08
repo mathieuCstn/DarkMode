@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    height: 100vh;
+    transition: 0.3s;
+    background-color: #F2F2F2;
+}
+
+button{
+    border: 0;
+    outline: 0; /*???*/
+}
+
+#darkMode{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 25px;
+}
